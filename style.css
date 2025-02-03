@@ -9,7 +9,7 @@ body {
     font-family: Inter;
     background-color: rgb(23, 23, 26);
     color: white;
-    background-image: url(silhouettePhoto.png);
+    background-image: url(files/github-mark-white.png);
 
     /* Full height */
     height: 100vh;
