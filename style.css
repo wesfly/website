@@ -1,61 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-
-* {
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
     margin: 0;
+    padding: 0;
 }
-
-body {
-    font-family: Inter;
-    background-color: rgb(23, 23, 26);
+body{
+    background-color: black;
     color: white;
-    background: #000000;
-    background-image: url(files/silhouettePhoto.png);
-    background-image: url(files/silhouettePhoto.png), linear-gradient(#00000000, #000000);
-
-    /* Full height */
-    height: 100vh;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: linear-gradient(to left, #00000000, rgb(38, 35, 61)), url('files/silhouettePhoto.png');
+    font-family: "IBM Plex Mono";
 }
 
-h1 {
-    font-size: 144px;
-    margin: 10px;
-}
-
-p {
-    margin: 10px;
-}
-.container{
+main-container{
     position: absolute;
     top: 50%;
-    translate: 10% -50%;
+    translate: 0 -70%;
+    /* margin-top: 128px; */
+    margin: 0 64px;
 }
-.links img{
-    height: 32px;
-    translate: 0 10px;
+
+h1{
+    font-size: 196px;
+    font-weight: 400;
 }
-.links{
-    text-decoration: none;
+links-container{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin: 16px;
+}
+links-container a{
+    background-color: white;
     color: black;
-    background-color: rgb(255, 255, 255);
-    min-height: 56px;
-    padding: 12px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-    backdrop-filter: blur(10px);
-    padding-top: 14px;
-    padding-bottom: 14px;
-    margin: 10px;
+    text-decoration: none;
+    padding: 16px 16px;
+    border: 1px solid white;
+    margin-left: 24px;
 }
-.links:hover{
-    background-color: #713dff;
-    box-shadow: 0px 0px 50px #713dff71;
+links-container a:hover{
+    background-color: black;
     color: white;
 }
