@@ -11,6 +11,11 @@ body{
     font-family: "IBM Plex Mono";
 }
 
+::selection{
+    background-color: #d4dce7;
+    color: black;
+}
+
 main-container{
     position: absolute;
     top: 50%;
@@ -43,6 +48,7 @@ links-container a:hover{
     background-color: white;
     color: black;
 }
+
 a.primary-link{
     background-color: white;
     color: black;
